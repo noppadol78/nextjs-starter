@@ -6,7 +6,7 @@
    "node": ">=18.7.0"
   },
   "scripts": {
-    "build": "next build && next export",
+    "build": "next build",
     "dev": "next dev",
     "fix": "next lint --fix",
     "lint": "next lint",
@@ -19,11 +19,6 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "eslint": "^8.11.0",
-    "eslint-config-next": "^12.1.0",
-    "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-prettier": "^4.0.0",
-    "prettier": "^2.6.0",
     "serve": "^14.2.1"
   }
 }
