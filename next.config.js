@@ -1,4 +1,6 @@
-module.exports = {
-    output: 'standalone',
-    trailingSlash: true
+const nextConfig = {
+    output: 'export',
+    trailingSlash: true,
 };
+
+module.exports = nextConfig
